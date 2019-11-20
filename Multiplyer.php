@@ -19,7 +19,7 @@ if (isset($_GET['y'])) {
 <body>
 <p1>Rechner</p1>
 <?php
-$z = $x * $y;
+$z = $x + $y;
 ?>
 <form>
     <input type="number" name="x"> <input type="number" name="y"> <input type="submit">
