@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-echo "<h1>Hallo Simon</h1>";
+echo "<h1>GTA V</h1>";
 echo "<p1>viel Spass</p1>";
 ?>
 </body>
