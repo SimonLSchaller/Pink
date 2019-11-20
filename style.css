@@ -1,4 +1,10 @@
+@font-face {
+  font-family:"GTA";
+  src: url("pricedow.ttf") format("truetype");
+}
+
 body {
-	background-color: blue;
-	font-family: Fantasy;
+	background-color: Blue;
+	font-family: GTA;
+	font-size: 100px
 }
