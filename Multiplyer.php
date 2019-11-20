@@ -1,34 +1,36 @@
 <?php
-$firstNumber = 0;
-if(isset($_GET['firstNumber'])){
-$name = $_GET['firstNumber'];
+
+$x = 0;
+$y = 0;
+if (isset($_GET['x'])) {
+    $x = $_GET['x'];
 }
-$secondNumber = 0;
-if(isset($_GET['secondNumber'])){
-$name = $_GET['secondNumber'];
+$y = "";
+if (isset($_GET['y'])) {
+    $y = $_GET['y'];
 }
+
 ?>
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<h1>Rechner</h1>
 <body>
-
-<form>
-<p1>x:</p1>
-<input type="number_format" name="firstNumber">
-</form>
-<form>
-<p1>y:</p1>
-<input type="number_format" name="secondNumber">
-<input type="submit">
-</form>
+<p1>Rechner</p1>
 <?php
-$Solution = $firstNumber * $secondNumber;
-echo "<p1>".$Solution."</p1>";
+$z = $x * $y;
+?>
+<form>
+    <input type="number" name="x"> <input type="number" name="y"> <input type="submit">
+
+</form>
+
+<?php
+echo $z
 ?>
 
 </body>
 </html>
+
+
